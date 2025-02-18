@@ -1,0 +1,279 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #005f73; /* Deep teal for a professional look */
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffb703; /* Highlight color on hover */
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hospital-hero.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.hero .btn {
+  background: #ffb703; /* Bright yellow for call-to-action */
+  color: #005f73;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #fb8500; /* Darker shade on hover */
+}
+
+/* Highlights Section */
+.highlights {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.highlight-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+}
+
+.highlight-card h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  color: #005f73;
+}
+
+.highlight-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #005f73;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #005f73; /* Deep teal for a professional look */
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffb703; /* Highlight color on hover */
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hospital-hero.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.hero .btn {
+  background: #ffb703; /* Bright yellow for call-to-action */
+  color: #005f73;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #fb8500; /* Darker shade on hover */
+}
+
+/* Highlights Section */
+.highlights {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.highlight-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+}
+
+.highlight-card h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  color: #005f73;
+}
+
+.highlight-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #005f73;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
